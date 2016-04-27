@@ -1,0 +1,57 @@
+// 导航1
+.ui-tab-nav1{
+  margin-top: 15px;
+  li{
+    float: left;
+    cursor: pointer;
+    &:last-child a{
+      border-right: none;
+    }
+    a{
+      color: #6c6c6c;
+      width: 120px;
+      text-align: center;
+      margin: 0 0 10px 0;
+      display: block;
+      font-size: 14px;
+      font-weight: bold;
+      border-right: 1px dotted #999;
+    }
+  }
+  .active{
+    border-bottom: 2px solid #f22e00;
+    a{
+      color: #f22e00;
+    }
+  }
+}
+
+// 导航2
+.ui-tab-nav2{
+  border-bottom: 1px solid #eee;
+  li{
+    float: left;
+    cursor: pointer;
+    &:last-child a{
+      border-right: 1px solid #eee;
+    }
+    a{
+      padding: 5px 15px 6px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #6c6c6c;
+      background: #fcfcfc;
+      border: 1px solid #eee;
+      border-right: 0;
+      border-bottom: 0;
+      display: block;
+    }
+  }
+  .active a{
+    color: #f22e00;
+    background: #fff;
+    border-top: 2px solid #f22e00;
+    padding: 5px 15px 5px;
+  }
+}
+

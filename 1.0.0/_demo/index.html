@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>1.0.0-公共整理</title>
+    <link href="../../src/code.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <script src="../../src/jquery.js"></script>
+    <script src="../../src/version.js"></script>
+</head>
+
+<body>
+<div class="root">
+
+<div class="domenav">
+    <ul>
+        <li><a href="#tab">选项</a></li>
+        <li><a href="#button">按钮</a></li>
+        <li><a href="#table">表格</a></li>
+        <li><a href="#layout">布局</a></li>
+        <li><a href="#Submit">提交框</a></li>
+    </ul>
+</div>
+<div class="domepanel">
+    <div id="tab" class="dometit">
+        <h2>选项</h2>
+    </div><!----------选项------------>
+    <div class="ui-tab">
+        <ul class="ui-tab-nav1 clearfix">
+            <li class="active"><a href="#" target="">全部订单</a></li>
+            <li><a href="#" target="">待付款</a></li>
+            <li><a href="#" target="">待发货</a></li>
+            <li><a href="#" target="">待收货</a></li>
+            <li><a href="#" target="">待评论</a></li>
+        </ul>
+    </div>
+    <div class="domehr"></div>
+    <div class="ui-tab">
+        <ul class="ui-tab-nav2 clearfix">
+            <li class="active"><a href="#" target="">全部订单</a></li>
+            <li><a href="#" target="">待付款</a></li>
+            <li><a href="#" target="">待发货</a></li>
+            <li><a href="#" target="">待收货</a></li>
+            <li><a href="#" target="">待评论</a></li>
+        </ul>
+    </div>
+    <div class="domehr"></div>
+    <div id="button" class="dometit">
+        <h2>按钮</h2>
+    </div><!----------按钮------------>
+    <div style="height: 80px;">
+        <button class="btn-sm">查询</button>
+        <p class="fl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <a href="#" class="btn-lg" target="_blank">抵用券充值</a>
+        <p class="fl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <a href="#" class="btn-md1" target="_blank"><i class="fa">&#xe60d</i>抵用券充值</a>
+        <p class="fl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <ul class="sort fl">
+            <li class="active">
+                <a href="#" class="target_no" target="">发放时间</a>
+                <i class="fa">&#xe645</i>
+            </li>
+            <li>
+                <a href="#" class="target_no" target="">开始时间</a>
+                <i class="fa">&#xe645</i>
+            </li>
+            <li>
+                <a href="#" class="target_no" target="">过期时间</a>
+                <i class="fa">&#xe645</i>
+            </li>
+        </ul>
+        <p class="fl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <div class="select btn-select">
+            <div class="current">
+                未使用<span class="num">0</span><i class="fa">&#xe61b</i>
+            </div>
+            <ul class="options select-layer">
+                <li>
+                    <a href="#" target="">未使用<span class="num">0</span></a>
+                </li>
+                <li>
+                    <a href="#" target="">已使用<span class="num">0</span></a>
+                </li>
+                <li>
+                    <a href="#" target="">已过期<span class="num">0</span></a>
+                </li>
+                <li>
+                    <a href="#" target="">已作废<span class="num">0</span></a>
+                </li>
+            </ul>
+        </div>
+        <p class="fl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <div class="btn-input">
+            <i class="fa">&#xe664</i>上传文件
+            <input type="file" name="file">
+        </div>
+        <p style="display: inline-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <div class="btn-md2">
+            <a href="#" target="_blank">积分兑换</a>
+        </div>
+    </div>
+    <div id="table" class="dometit">
+        <h2>表格</h2>
+    </div><!----------表格------------>
+    <div>
+        <table class="tb-void">
+            <thead class="detail1-tit">
+            <tr>
+                <th>面值</th>
+                <th>状态</th>
+                <th>店铺名称</th>
+                <th>有效期</th>
+                <th>使用条件</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/2/1--2016/3/1</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥10</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满299元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥10</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满299元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="layout" class="dometit">
+        <h2>布局框</h2>
+    </div> <!----------布局------------>
+    <div class="main integral">
+        <div class="detail1-tit">
+            <h3>以下是您最近30天的商品浏览记录</h3>
+            <a href="#" class="blue" target="_blank">积分规则</a>
+        </div>
+        <div class="message"></div>
+    </div>
+    <div class="domehr"></div>
+    <div class="detail1-tit">
+        <h3>以下是您最近30天的商品浏览记录</h3>
+        <a href="#" class="blue" target="_blank">积分规则</a>
+    </div>
+    <div class="domehr"></div>
+    <div class="detail2-tit">
+        <h3>我的预约</h3>
+    </div>
+    <div id="Submit" class="dometit">
+        <h2>提交框</h2>
+    </div> <!----------提交框------------>
+    <input type="text" class="itext" placeholder="默认焦点色">
+    <div class="domehr"></div>
+    <select class="itext selt"><option></option></select>
+    <div class="domehr"></div>
+    <span>框子:</span><input type="text" class="fred itext" placeholder="焦点后红色">
+    <div class="domehr"></div>
+    <div class="search-input">
+        <input type="text" class="itext" placeholder="输入订单号查询">
+        <a class="ibtn"><i class="fa">&#xe60d;</i></a>
+    </div>
+    <div class="domehr">
+
+    </div>
+        <span class="checkone">
+            <input type="checkbox" name="z-prom" id="z-prom">
+            <label for="z-prom">仅显示促销</label>
+    </span>
+    <div class="domehr"></div>
+    <div class="input-date">
+        <span>时间：</span>
+        <div class="search-input">
+            <input type="text" class="itext" id="start">
+            <a class="ish"><i class="fa">&#xe65b;</i></a>
+        </div>
+        <span> 至</span>
+        <div class="search-input">
+            <input type="text" class="itext" id="end" >
+            <a class="ish"><i class="fa">&#xe65b;</i></a>
+        </div>
+    </div>
+    <div class="domehr"></div>
+    <div class="form-group">
+        <label>资讯简介</label>
+        <select class="itext selt">
+            <option>谁谁谁</option>
+            <option>谁谁谁</option>
+            <option>谁谁谁</option>
+        </select>
+    </div>
+    <div class="domehr"></div>
+    <div class="form-group">
+        <label for="title"><i>*</i> 标题</label>
+        <input type="text" id="title" class="itext forange">
+        <span>SEO关键词 以空格分开</span>
+    </div>
+    <div class="domehr"></div>
+    <div class="form-group">
+        <label><i>*</i> 简介</label>
+        <textarea class="itext forange" rows="5" cols="50"></textarea>
+    </div>
+    <div class="domehr"></div>
+    <div class="form-group">
+        <label>起始日期</label>
+        <div class="search-input">
+            <input type="text" id="startdate" class="itext" placeholder="输入订单号查询">
+            <a class="ibtn"><i class="fa">&#xe65b;</i></a>
+        </div>
+    </div>
+    <div id="form" class="dometit">
+        <h2>布局框</h2>
+    </div>
+    <!----------form------->
+    <div class="box">
+        <div class="form-group">
+            <label>资讯简介</label>
+            <select class="itext selt">
+                <option>谁谁谁</option>
+                <option>谁谁谁</option>
+                <option>谁谁谁</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>起始日期</label>
+            <div class="search-input">
+                <input type="text" class="itext" placeholder="输入订单号查询">
+                <a class="ibtn"><i class="fa">&#xe65b;</i></a>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="title"><i>*</i> 标题</label>
+            <input type="text" class="itext forange">
+            <span>SEO关键词 以空格分开</span>
+        </div>
+    </div>
+</div>
+
+
+</div>
+<!--<script>
+    $(function() {
+        //百度文本编辑器
+//        var ue = UE.getEditor('container');
+        //控件
+        laydate({
+            elem:"#startdate"
+        });
+
+        // 下拉选择
+        $(".select").dropdown({
+            trigger: !0,
+            current: "hover"
+        });
+    })
+</script>-->
+</body>
+</html>

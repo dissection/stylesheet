@@ -1,0 +1,43 @@
+.root{
+
+
+}
+
+.dometit{
+    height: 30px; background-color: #2E2D3C; padding-left:10px;
+    margin-bottom: 10px;;
+}
+.dometit h2{
+    line-height: 30px; color: #fff
+}
+.domehr{
+    height: 1px; background-color: #2E2D3C;
+    margin: 10px auto;
+}
+.domenav{
+    width: 200px;
+    height: 700px;
+    border-right: 1px solid #2E2D3C;
+    position: fixed;
+}
+.domenav li{
+    margin-bottom: 1px;
+}
+.domenav a{
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    font-weight: 600;
+    font-size: 12px;
+    padding-left: 10px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #dfdfdf;
+}
+.domenav a.active{
+    background-color: #c8c8c8;
+}
+.domepanel{
+    min-width: 980px;
+    margin-left: 200px;
+    padding: 10px 10px 30px 10px;
+}
