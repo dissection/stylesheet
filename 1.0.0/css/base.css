@@ -334,6 +334,18 @@ s {
   border-top: 2px solid #f22e00;
   padding: 5px 15px 5px;
 }
+.detail1-tit .ui-tab-nav2 {
+  border: none;
+}
+.detail1-tit .ui-tab-nav2 a {
+  padding: 1px 10px;
+  font-size: 12px;
+  height: 29px;
+  margin-top: 8px;
+}
+.detail1-tit .ui-tab-nav2 .active a {
+  padding: 0 10px 1px;
+}
 .sp-form-item1 input,
 .sp-form-item2 input {
   border: 1px solid #ccc;
