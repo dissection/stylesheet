@@ -334,16 +334,24 @@ s {
   border-top: 2px solid #f22e00;
   padding: 5px 15px 5px;
 }
-.detail1-tit .ui-tab-nav2 {
+.detail3-tit {
+  height: 40px;
+  line-height: 38px;
+  background: #eee;
+  border: 1px solid #ddd;
+  padding: 0 20px 0 14px;
+  position: relative;
+}
+.detail3-tit .ui-tab-nav2 {
   border: none;
 }
-.detail1-tit .ui-tab-nav2 a {
+.detail3-tit .ui-tab-nav2 a {
   padding: 1px 10px;
   font-size: 12px;
   height: 29px;
   margin-top: 8px;
 }
-.detail1-tit .ui-tab-nav2 .active a {
+.detail3-tit .ui-tab-nav2 .active a {
   padding: 0 10px 1px;
 }
 .sp-form-item1 input,
@@ -609,18 +617,6 @@ s {
 .disabled {
   cursor: not-allowed !important;
 }
-.col_w10 {
-  width: 10%;
-}
-.col_w15 {
-  width: 15%;
-}
-.col_w20 {
-  width: 20%;
-}
-.col_w40 {
-  width: 40%;
-}
 /*
     表格样式
    */
@@ -701,9 +697,8 @@ s {
 .integral .message {
   border: 1px solid #ddd;
   border-top: 0 none;
-  height: 50px;
-  margin-bottom: 30px;
-  padding: 35px 0;
+  height: 100px;
+  margin-bottom: 20px;
 }
 .form-group {
   font-size: 12px;
