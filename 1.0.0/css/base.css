@@ -594,6 +594,9 @@ s {
 .btn-input:hover {
   background-color: #e61c37;
 }
+.disabled {
+  cursor: not-allowed !important;
+}
 .col_w10 {
   width: 10%;
 }
