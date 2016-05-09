@@ -687,15 +687,34 @@ s {
   font-size: 14px;
   font-weight: bold;
 }
+.detail3-tit {
+  height: 40px;
+  line-height: 32px;
+  background: #eee;
+  border: 1px solid #ddd;
+  padding: 0 20px 0 14px;
+  position: relative;
+}
+.detail3-tit .ui-tab-nav2 {
+  border: none;
+}
+.detail3-tit .ui-tab-nav2 a {
+  padding: 1px 10px;
+  font-size: 12px;
+  height: 29px;
+  margin-top: 8px;
+}
+.detail3-tit .ui-tab-nav2 .active a {
+  padding: 0 10px 1px;
+}
 .integral {
   background-color: #ffffff;
 }
 .integral .message {
   border: 1px solid #ddd;
   border-top: 0 none;
-  height: 50px;
-  margin-bottom: 30px;
-  padding: 35px 0;
+  height: 100px;
+  margin-bottom: 20px;
 }
 .form-group {
   font-size: 12px;
