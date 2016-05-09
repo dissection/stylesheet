@@ -500,14 +500,13 @@ s {
 .btn-md2.gray {
   width: 106px;
   margin-left: 20px;
-  border: 1px solid #929292;
+  border: 1px solid #7B7878;
 }
 .btn-md2.gray a {
   background-color: #929292;
-  border: 1px solid #929292;
+  border: 1px solid #BBBBBB;
 }
 .btn-md2.gray:hover a {
-  border: 1px solid #636363;
   background-color: #636363;
 }
 .sort li {
