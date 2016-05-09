@@ -8,6 +8,8 @@
     <link href="../css/base.css" rel="stylesheet">
     <script src="../../src/jquery.js"></script>
     <script src="../../src/version.js"></script>
+    <script src="../laypage/laypage.js"></script>
+    <link href="../laypage/skin/laypage.css" rel="stylesheet">
 </head>
 
 <body>
@@ -102,6 +104,7 @@
         <div class="btn-md2 gray">
             <a class="disabled" href="#" target="_blank">积分兑换</a>
         </div>
+        <button class="btn-sm  batchDelete mr10">批量删除</button>
     </div>
     <div id="table" class="dometit">
         <h2>表格</h2>
@@ -188,9 +191,114 @@
                 <td>2016/1/18--2016/1/31</td>
                 <td>满199元</td>
             </tr>
+
             </tbody>
         </table>
     </div>
+    <div id="Submit2" class="dometit">
+        <h2>表格组合</h2>
+    </div> <!----------表格组合------------>
+    <div>
+        <table class="tb-void">
+            <thead class="detail1-tit">
+            <tr>
+                <th>面值</th>
+                <th>状态</th>
+                <th>店铺名称</th>
+                <th>有效期</th>
+                <th>使用条件</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/2/1--2016/3/1</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥10</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满299元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+            <tr>
+                <td>￥10</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满299元</td>
+            </tr>
+            <tr>
+                <td>￥5</td>
+                <td>已过期</td>
+                <td><a target="_blank" href="#">官方自营店</a></td>
+                <td>2016/1/18--2016/1/31</td>
+                <td>满199元</td>
+            </tr>
+
+            </tbody>
+        </table>
+        <div class="handle mt10">
+            <div class="handle-left">
+                <div>
+                    <input type="checkbox" class="fl chooseAll-CheckBox"/>
+                    <label class="fl chooseAll-label ">全选</label>
+                </div>
+                <button class="btn-sm  batchDelete">批量删除</button>
+                <button class="btn-sm">下架</button>
+                <button class="btn-sm disabled">关联板式</button>
+            </div>
+            <div class="handle-right">
+                <div id="page" class="fr"></div>
+            </div>
+        </div>
+    </div>
+
     <div id="layout" class="dometit">
         <h2>布局框</h2>
     </div> <!----------布局------------>
@@ -329,5 +437,18 @@
         });
     })
 </script>-->
+<script>
+ $(function(){
+    laypage({
+    cont: $('#page'), //容器。值支持id名、原生dom对象，jquery对象,
+    pages: 100, //总页数
+    skin: '#cb3f3e', //加载内置皮肤，也可以直接赋值16进制颜色值，如:#c00
+    groups:6 ,//连续显示分页数
+    first: 1, //将首页显示为数字1,。若不显示，设置false即可
+    last: false, //将尾页显示为总页数。若不显示，设置false即可
+    });
+});
+</script>
 </body>
+
 </html>
